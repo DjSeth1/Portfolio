@@ -152,39 +152,106 @@ h2 {
     overflow: scroll;
 }
 
+.projects {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 1rem;
+}
+
 .project-container {
+    margin: 10% 5%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
+    gap: 1.5em;
     
 
 }
 
 .project-card-1 {
+    flex-basis: 30%;
+    padding: 1rem;
+    border-radius: 1rem;
     border: 1px solid #ec6335;
-    height: 30vw;
-    width: 100px;
-    
+    position: relative;
+    overflow: hidden;
+    min-height: 250px;
+    background: url(images/pacman.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .project-card-2 {
+    flex-basis: 30%;
+    padding: 1rem;
+    border-radius: 1rem;
     border: 1px solid #ec6335;
-    height: 30vw;
-    width: 100px;
+    position: relative;
+    overflow: hidden;
+    min-height: 250px;
+    background: url(images/terminal-app.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .project-card-3 {
+    flex-basis: 30%;
+    padding: 1rem;
+    border-radius: 1rem;
     border: 1px solid #ec6335;
-    height: 30vw;
-    width: 100px;
+    position: relative;
+    overflow: hidden;
+    min-height: 250px;
+    background: url(images/memory-game.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .project-card-4 {
+    flex-basis: 30%;
+    padding: 1rem;
+    border-radius: 1rem;
     border: 1px solid #ec6335;
-    height: 30vw;
-    width: 100px;
+    position: relative;
+    overflow: hidden;
+    min-height: 250px;
+    background: url(images/coming-soon.jpg) no-repeat center;
+    background-size: cover;
 }
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    opacity: 0;
+    
+    
+}
+
+.layer:hover {
+    background: #010000d7;
+    opacity: 1;
+}
+
+
+
+
+h4 {
+    font-size: 1.5rem;
+    padding: 2rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
 
 
 
