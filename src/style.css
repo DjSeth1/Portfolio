@@ -199,7 +199,12 @@ main {
     color: white;
 }
 
-.button,.button-card:hover {
+.button:hover {
+    background: #e67854;
+    transition: 0.7s; 
+}
+
+.button-card:hover {
     background: #e67854;
     transition: 0.7s; 
 }
