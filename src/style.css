@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+
+ /*global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes loadIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-20deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #1c1d25;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    animation: loadIn 2s ease;
+    
+}
+
+header {
+
+    height: 15vh;
+    padding: 1rem;
+    
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+
+}
+
+nav img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+nav img:hover {
+    border: 1px solid #ec6335;
+    transition: 0.5s;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 0.2rem;
+    background: #ec6335;
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-evenly;
+}
+
+
+h1 {
+    font-size: 5rem;
+    padding: 2rem 0rem;
+}
+
+.h2-styling {
+    font-size: clamp(2rem, 2vw, 3vw);
+    font-weight: 500;
+    padding: 1rem 0;
+   
+}
+
+h3 {
+    font-size: clamp(1.5rem, 1.5rem, 2rem);
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 1.5rem;
+    padding: 2rem;
+    font-weight: 400;
+}
+
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    align-items: center;
+    
+
+}
+
+.social-links a {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    
+}
+
+.social-links a img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.social-links a img:hover {
+    background: #ec6335;
+    transition: 0.8s;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 200;
+    margin-top: auto;
+}
+
+/* Home page specific styles */
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    justify-content: center;
+}
+
+
+.hero-text {
+    margin:4rem;
+}
+
+.button {
+    margin: 4rem;
+    padding: 0.8rem;
+    font-size: 1.15rem;
+    background: #ec6335;
+    border-radius: 2rem;
+    cursor: pointer;
+    max-width: max-content;
+
+}
+
+/* About Page specific styles */
+
+.button-card {
+    font-size: 1.15rem;
+    padding: 0.8rem;
+    background: #ec6335;
+    border-radius: 2rem;
+    cursor: pointer;
+    max-width: max-content;
+}
+.information a {
+    text-decoration: none;
+    color: white;
+}
+
+.button,.button-card:hover {
+    background: #e67854;
+    transition: 0.7s; 
+}
+
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.about-hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.headshot-container {
+    display: flex;
+    padding: 1.5rem 0;
+    justify-content: center;
+    min-height: 1;
+}
+
+.headshot {
+    border-radius: 50%;
+    border: 4px solid #ec6335;
+    height: clamp(12rem, 30vw, 25rem);
+    width: clamp(12rem, 30vw, 25rem); 
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+
+}
+
+/* projects page specifc style */
+
+.projects {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.project-container {
+    margin: 10% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5em;
+    
+}
+
+.project-card-1, .project-card-2, .project-card-3, .project-card-4  {
+    flex-basis: 30%;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid #ec6335;
+    position: relative;
+    overflow: hidden;
+    min-height: 225px;
+    
+}
+
+.project-card-1 {
+    background: url(/images/pacman.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.project-card-2 {
+    background: url(/images/terminal-app.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.project-card-3 {
+    background: url(/images/memory-game.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.project-card-4 {
+    background: url(/images/coming-soon.jpg) no-repeat center;
+    background-size: cover;
+}
+
+/* styling for animation in projects and blogs pages */
+
+.layer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    opacity: 0;
+    
+}
+
+.layer a {
+    text-decoration: none;
+    color: white;
+}
+
+.layer:hover {
+    background: #010000d7;
+    opacity: 1;
+}
+
+
+/* blog page specific styles */
+
+.blog {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.blog-container {
+    margin: 10% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5em;
+    
+}
+
+.blog-card-1, .blog-card-2, .blog-card-3, .blog-card-4, .blog-card-5 {
+    flex-basis: 30%;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid #ec6335;
+    position: relative;
+    overflow: hidden;
+    min-height: 250px;
+    background: url(/images/friends-blog.jpg) no-repeat center;
+    background-size: cover;
+    justify-content: center;
+}
+
+.blog-card-2 {
+    background: url(/images/software-journey-blog.jpg) no-repeat center;
+    /* card 2-5 background image over-ridden */
+    background-size: cover;
+}
+
+.blog-card-3 {
+    background: url(/images/internship-project-blog.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.blog-card-4 {
+    background: url(/images/coming-soon.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.blog-card-5 {
+    background: url(/images/coming-soon.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.layer a:hover {
+    color: #ec6335;
+    transition: 0.3s;
+}
+
+
+/* blog post styling */
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.blog-image-container {
+    display: flex;
+    justify-content: center;
+    height: clamp(25vw, 25vw, 30vw);
+    width: 80vw;
+    border: 1px solid #ec6335;
+    border-radius: 1rem;
+}
+
+.blog-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.blog-post-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 4rem;
+}
+
+
+/* media queries for responsiveness */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .project-container , .blog-container {
+        margin: 10% 5%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        gap: 1.5em;
+        
+    }
+
+    main {
+        margin-left: 3rem;
+    }
+
+    
+}
+
+@media (min-width: 1025px) {
+    .project-container {
+        margin: 10% 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 1.5em;
+    }
+    
+    .blog-container {
+        margin: 10% 5%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        gap: 1.5em;
+    }
+
+    .about-hero {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .headshot-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        min-width: 50vw;
+        margin-top: 10rem;
+        
+    }
+    
+    .information {
+        max-width: 35vw;
+    }
+
+    main {
+        margin-left: 8rem;
+    }
+
+    .blog-post-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
