@@ -108,12 +108,22 @@ h1 {
 h3 {
     font-size: clamp(1.5rem, 1.5rem, 2rem);
     font-weight: 300;
+    padding: 1rem 0;
 }
 
 h4 {
     font-size: 1.5rem;
     padding: 2rem;
     font-weight: 400;
+}
+
+.small-text {
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.date-time {
+    padding: 1rem 0;
 }
 
 
@@ -225,6 +235,10 @@ main {
     flex-direction: column;
     margin: 4rem;
 
+}
+
+.contact-links {
+    padding: 1rem 0;
 }
 
 /* projects page specifc style */
