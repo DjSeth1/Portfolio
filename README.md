@@ -8,7 +8,7 @@
 
 ## Purpose and Target Audience
 
-The portfolio website is intended for attracting engagement from future employers as it shows my background, projects and technical ability. It also showcases the contents learned from weeks 1 to 3. As my technical capabilities grow, there will be more functionality and features added to this website. 
+The portfolio website is intended for attracting engagement from future employers as it shows my background, projects and technical ability. It also showcases the contents learned from weeks 1 to 3. As my technical capabilities grow, there will be more functionality and features added to this website.
 
 ## Functionality and Features
 
@@ -23,52 +23,51 @@ All pages can navigate amongst each other seamlessly. The design scheme remains 
 
 ## Sitemap
 
-The site integrates all its pages, all pages can be accessed from any page within the site. 
+The site integrates all its pages, all pages can be accessed from any page within the site.
 
 Created Using Draw.io
 
-![Screen Shot 2022-08-27 at 12.45.50 PM.png](/Screenshots/sitemap.png)
+![Screen Shot 2022-08-27 at 12.45.50 PM.png](/docs//Screenshots/sitemap.png)
 
 ## Wireframes and Screenshots
 
 Design mock ups made using Figma, and then the resulting pages.
 
-### Index/Home:
+### Index/Home
 
-![figma-mobile](/Screenshots/main-m-figma.png)
+![figma-mobile](/docs//Screenshots/main-m-figma.png)
 
-![figma-tablet-desktop-figma](/Screenshots/main-td-figma.png)
+![figma-tablet-desktop-figma](/docs//Screenshots/main-td-figma.png)
 
-![main](/Screenshots/main-mt-live.png)
+![main](/docs//Screenshots/main-mt-live.png)
 
-![main](Screenshots/main-d-live.png)) 
+![main](/docs/Screenshots/main-d-live.png)
 
-### About Page:
+### About Page
 
-![About](/Screenshots/about-mt-figma.png)
+![About](/docs//Screenshots/about-mt-figma.png)
 
-![About](/Screenshots/about-d-figma.png) 
+![About](/docs//Screenshots/about-d-figma.png)
 
-![About](/Screenshots/about-mt-live.png)
+![About](/docs//Screenshots/about-mt-live.png)
   
-
 ### Projects Page
 
-![Projects](/Screenshots/projects-mtd-figma.png)
+![Projects](/docs//Screenshots/projects-mtd-figma.png)
 
-![Projects](/Screenshots/projects-mtd-live.png)
+![Projects](/docs//Screenshots/projects-mtd-live.png)
 
 ### Blog Posts
 
-![Blogposts](/Screenshots/blogpost-figma.png)
+![Blogposts](/docs//Screenshots/blogpost-figma.png)
 
-![Blogposts](/Screenshots/blogpost-live.png)
+![Blogposts](/docs//Screenshots/blogpost-live.png)
 
 ### Blog Page
 
-![Blog](/Screenshots/blog-figma.png)
+![Blog](/docs//Screenshots/blog-figma.png)
 
-![Blog](/Screenshots/blog-live.png)
+![Blog](/docs//Screenshots/blog-live.png)
 
 ## Technology Stack Used
 
