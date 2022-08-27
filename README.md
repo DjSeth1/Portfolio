@@ -35,40 +35,40 @@ Design mock ups made using Figma, and then the resulting pages.
 
 ### Index/Home:
 
-![main-mt-figma.png](/Screenshots/main-m-figma.png)
+![figma-mobile](/Screenshots/main-m-figma.png)
 
-![](/Screenshots/main-td-figma.png)
+![figma-tablet-desktop-figma](/Screenshots/main-td-figma.png)
 
-![Screen Shot 2022-08-27 at 12.53.53 PM.png](/Screenshots/main-mt-live.png)
+![main](/Screenshots/main-mt-live.png)
 
-![](Screenshots/main-d-live.png)) 
+![main](Screenshots/main-d-live.png)) 
 
 ### About Page:
 
-![Screen Shot 2022-08-27 at 1.23.05 PM.png](/Screenshots/about-mt-figma.png)
+![About](/Screenshots/about-mt-figma.png)
 
-![Screen Shot 2022-08-27 at 12.59.12 PM.png](/Screenshots/about-d-figma.png) 
+![About](/Screenshots/about-d-figma.png) 
 
-![Untitled](/Screenshots/about-mt-live.png)
+![About](/Screenshots/about-mt-live.png)
   
 
 ### Projects Page
 
-![Screen Shot 2022-08-27 at 1.27.25 PM.png](/Screenshots/projects-mtd-figma.png)
+![Projects](/Screenshots/projects-mtd-figma.png)
 
-![Screen Shot 2022-08-27 at 1.28.12 PM.png](/Screenshots/projects-mtd-live.png)
+![Projects](/Screenshots/projects-mtd-live.png)
 
 ### Blog Posts
 
-![Screen Shot 2022-08-27 at 1.31.44 PM.png](/Screenshots/blogpost-figma.png)
+![Blogposts](/Screenshots/blogpost-figma.png)
 
-![Screen Shot 2022-08-27 at 1.32.01 PM.png](/Screenshots/blogpost-live.png)
+![Blogposts](/Screenshots/blogpost-live.png)
 
 ### Blog Page
 
-![Screen Shot 2022-08-27 at 1.33.12 PM.png](/Screenshots/blog-figma.png)
+![Blog](/Screenshots/blog-figma.png)
 
-![Screen Shot 2022-08-27 at 1.33.49 PM.png](/Screenshots/blog-live.png)
+![Blog](/Screenshots/blog-live.png)
 
 ## Technology Stack Used
 
