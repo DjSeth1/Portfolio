@@ -4,7 +4,7 @@
 
 ### [Github Repo](https://github.com/DjSeth1/DivijSeth_T1A2)
 
-### Presentation Video
+### [Presentation Video](https://vimeo.com/743824615)
 
 ## Purpose and Target Audience
 
